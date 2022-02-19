@@ -1,0 +1,42 @@
+<!DOCTYPE html>  <!-- html:5 avec emmet permet de créer une structure html de base -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav>ul>li -->
+    <nav>
+        <ul>
+            <!-- li*4 pour créer plusieurs balises li -->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </nav>
+    <!-- h1+h2+div -->
+    <h1>A</h1>
+    <h2>B</h2>
+
+    <!-- Je vais définir ma vue à l'intérieur d'une balise html, ex : div#app -->
+    <div id="app"> </div>
+
+    <!-- Script hébergera le vue model-->
+    <script>
+        // createApp va créer une autre application en vuejs
+        const app = vue.createApp({
+        // C'est ici que l'on insère les données, le model
+            // data avec annotation ES6
+            data() {
+                // Je return ici un objet json, c'est ici qu'il y aura mes données, mes variables qui sont réutilisés par la vue
+                return {
+
+                }
+            }
+        });
+    </script>
+</body>
+</html>
